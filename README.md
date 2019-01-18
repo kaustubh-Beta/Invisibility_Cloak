@@ -1,16 +1,13 @@
-# Rust Detection Algorithm
+# Invisibility Cloak
 
 ![Recordit GIF](demo.gif) 
 
-The rust detection algorithm uses colour based image processing technique to detect and segment 
-the region of metal affected by rust. I developed this code for my friend who was studying 
-the effect of a solution on different metals to preventing rusting.
+Being a harry potter fan I always had a childhood fantacy of using an invisibility cloak. Well it turns out that 
+using simple image processing tricks I can now actually fulfill my childhood fantacy. 
+This [code](AR_invisibility_Cloak.py) turns a `red` colour cloth into an invisibility cloak.
 
-Using the algorithm, it was easy to compare the number of pixels corresponding to
-rusted area of metal. Since the arrangement of camera while taking the image is fixed, comparison 
-directly in terms of pixels will work well.
-
->- You can learn some key functions of opencv from this code. 
+>- It's a fun application which you will enjoy using.
+>- You can learn some key functions of opencv from this project. 
 >- Refer a detailed [Tutorial](Tutorial.md) explaining the [code](AR_invisibility_Cloak.py).
 
 ---
@@ -21,7 +18,7 @@ directly in terms of pixels will work well.
 
 #### Clone
 
-- Clone this repo to your local machine using `https://github.com/kaustubh-Beta/Rust-detection-algorithmm.git`
+- Clone this repo to your local machine using `https://github.com/kaustubh-Beta/Invisibility_Cloak.git`
 
 #### Setup/Requirements
 
