@@ -39,6 +39,7 @@ for i in range(30):
 >So you can check end of the video by checking this return value.
 
 **Why capture background image using a for loop ?**
+
 As the background is static we can do with a single capture right ?
 Well yes but the image captured is a bit dark compared to when 
 multiple frames are captured. 
