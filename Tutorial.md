@@ -1,7 +1,7 @@
-# Rust Detection Algorithm Tutorial
+# Invisibility cloak tutorial
 
 This tutorial aims at explaining some key concepts of `image processing` using `opencv` with python.
-We will try to understand each line of the [code](Air_Drums.py)
+We will try to understand each line of the [code](AR_invisibility_Cloak.py)
 
 > ###### Note for someone using python for the first time:
 > anything written after '#' will be treated as a comment. 
@@ -13,10 +13,8 @@ We will try to understand each line of the [code](Air_Drums.py)
 
 ```python
 import cv2
-from sys import argv
 import numpy as np
-import os
-import glob
+import time
 ```
 
 ### Understanding the rust_detect() function 
