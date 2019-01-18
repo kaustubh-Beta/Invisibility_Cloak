@@ -11,7 +11,7 @@ rusted area of metal. Since the arrangement of camera while taking the image is 
 directly in terms of pixels will work well.
 
 >- You can learn some key functions of opencv from this code. 
->- Refer a detailed [Tutorial](Tutorial.md) explaining the [code](Rust_Detection.py).
+>- Refer a detailed [Tutorial](Tutorial.md) explaining the [code](AR_invisibility_Cloak.py).
 
 ---
 
