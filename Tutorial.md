@@ -33,6 +33,9 @@ time.sleep(3)
 background=0
 for i in range(30):
 	ret,background = cap.read()
+
+# Laterally invert the image / flip the image.
+background = np.flip(background,axis=1)
 ```
 >cap.read() method enables us to capture latest frame(stored in variable `background`) with the camera
 >and it also returns a boolean (True/False stored in `ret`). If frame is read correctly, it will be True. 
@@ -46,4 +49,5 @@ Hence capturing multiple images of static background with a for loop
 did the trick for me.
 
 
-### 
+### Understanding the while loop
+`while(cap.isOpened()
