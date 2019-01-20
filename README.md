@@ -1,6 +1,6 @@
 # Invisibility Cloak
 
-![Recordit GIF](demo.gif) 
+![Recordit GIF](gif1.gif) 
 
 Being a harry potter fan I always had a childhood fantacy of using an invisibility cloak. Well it turns out that 
 using simple image processing tricks I can now actually fulfill my childhood fantacy. 
