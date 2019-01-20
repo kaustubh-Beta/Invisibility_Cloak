@@ -128,5 +128,6 @@ removes small regions of false detection which will avoid random glitches in the
 What we do in this line is quite simple. We access all the pixels which have value of 255 
 in the final mask (`The pixels corresponding to the detected red colour`), and we replace the pixel values 
 with the pixel values of respective coordinates in the background frame. That's the trick. 
-View the below Pictures to understand what is happening. 
+View the gif Pictures to understand what is happening. 
+![Recordit GIF](gif2.gif) 
 
