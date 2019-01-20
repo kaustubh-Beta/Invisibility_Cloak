@@ -33,7 +33,7 @@ while(cap.isOpened()):
 	mask1 = cv2.inRange(hsv,lower_red,upper_red)
 
 	lower_red = np.array([170,120,70])
-	upper_red = np.array([255,255,255])
+	upper_red = np.array([180,255,255])
 	mask2 = cv2.inRange(hsv,lower_red,upper_red)
 
 	mask = mask1+mask2
