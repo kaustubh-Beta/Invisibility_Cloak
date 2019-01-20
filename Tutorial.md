@@ -129,5 +129,6 @@ What we do in this line is quite simple. We access all the pixels which have val
 in the final mask (`The pixels corresponding to the detected red colour`), and we replace the pixel values 
 with the pixel values of respective coordinates in the background frame. That's the trick. 
 View the gif Pictures to understand what is happening. 
+
 ![Recordit GIF](gif2.gif) 
 
