@@ -28,19 +28,17 @@ while(cap.isOpened()):
 	hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 	value = (35, 35)
 	blurred = cv2.GaussianBlur(hsv, value,0)
-	lower_red = np.array([0,100,0])
+	lower_red = np.array([0,120,70])
 	upper_red = np.array([10,255,255])
 	mask1 = cv2.inRange(hsv,lower_red,upper_red)
 
-	lower_red = np.array([170,100,0])
+	lower_red = np.array([170,120,70])
 	upper_red = np.array([255,255,255])
 	mask2 = cv2.inRange(hsv,lower_red,upper_red)
 
 	mask = mask1+mask2
-	mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5,5),np.uint8))
-	#mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((3,3),np.uint8),iterations=2)
-	#mask = cv2.dilate(mask,np.ones((3,3),np.uint8),iterations = 1)
-
+	mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5,5),np.uint8))
+	
 	img[np.where(mask==255)] = background[np.where(mask==255)]
 	cv2.imshow('Display',img)
 	k = cv2.waitKey(10)
