@@ -2,8 +2,8 @@
 
 ![Recordit GIF](gif1.gif) 
 
-Being a harry potter fan I always had a childhood fantacy of using an invisibility cloak. Well it turns out that 
-using simple image processing tricks I can now actually fulfill my childhood fantacy. 
+Being a harry potter fan I always had a childhood fantasy of using an invisibility cloak. Well it turns out that 
+using simple image processing tricks I can now actually fulfil my childhood fantasy. 
 This [code](AR_invisibility_Cloak.py) turns a `red` colour cloth into an invisibility cloak.
 
 >- It's a fun application which you will enjoy using.
